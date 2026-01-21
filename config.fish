@@ -6,4 +6,6 @@ alias rf='source ~/.config/fish/config.fish'
 alias fish_config='vim ~/.config/fish/config.fish'
 alias falias="cat ~/.config/fish/config.fish"
 alias i3_config="vim ~/.config/i3/config"
-
+alias encrypt_file="~/scripts/enc_dnc_files.sh"
+alias copy_file="xclip -sel c <"
+alias decrypt_and_store="~/scripts/decrypt_copy_remove.sh"
